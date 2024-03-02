@@ -1,0 +1,101 @@
+
+body.index {
+    font-family: 'Breaking Bad', sans-serif;
+}
+.texto {
+    color: white;
+    font-weight: bold;
+}
+header img {
+    margin: 0 auto;
+    display: block;
+}
+
+#poster {
+    text-align: center;
+}
+
+#poster img {
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+
+body.formulario {
+    font-family: 'Helvetica', sans-serif;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-group {
+    width: 48%;
+    margin-bottom: 10px;
+}
+form textarea {
+    margin-left: 0; 
+    width: 100%;
+}
+form input[type="submit"],
+form input[type="reset"] {
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+body.Tabla {
+    background-color: #0c3e11;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif
+}
+#titulo {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.cuadrado {
+    background-color: #8fbd5e; /* Verde pistacho */
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.cuadrado #br-letra, .cuadrado #b-letra {
+    color: #556b2f;
+}
+
+.cuadrado #eaking, .cuadrado #ad {
+    color: white;
+    font-weight: bold;
+}
+#eaking {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+#ad {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+#textotablaperiodica {
+    color:red;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    font-size: 12px;
+    text-align: left;
+}
